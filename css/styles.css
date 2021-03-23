@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: 
+}
+
+@font-face {
+  src: url(../fonts/BMJUA_otf.otf);
+  font-family: "JUA";
+}
+
+body {
+  background-color: #F0E8D9;
+  font-family: JUA;
+  color: #58595B;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 75px;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 32px;
+}
+
+#page_name {
+  text-align: center;
+  margin-top: 75px;
+}
+
+#sub_name {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+.product {
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  size: cover;
+}
+
+.product .descript {
+  padding: 20px;
+}
+
+.product .descript p{
+  margin-top: 20px;
+  margin-bottom: 16px;
+  text-align: left;
+  font-size: 16px;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
